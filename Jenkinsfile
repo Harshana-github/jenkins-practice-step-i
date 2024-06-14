@@ -8,11 +8,4 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('Welcome to DevOps') {
-            steps {
-                echo 'Hello, DevOps!'
-            }
-        }
-    }
 }
